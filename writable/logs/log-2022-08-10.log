@@ -1,0 +1,83 @@
+CRITICAL - 2022-08-10 13:14:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count_all_results()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:14:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count_all_results()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:15:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::num_rows()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:15:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count_all_results()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:16:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:16:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:16:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(20): App\Models\ModelSolusi->getCountPenyakit1()
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 13:16:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(21): CodeIgniter\Model->__call('getCountPenyaki...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 13:17:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(21): CodeIgniter\Model->__call('getCountPenyaki...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-10 13:37:12 --> Undefined variable: nilai_keanggotaan
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(132): App\Models\ModelDeteksi->hitungHasil('413')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('413')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-10 13:37:19 --> Undefined variable: nilai_keanggotaan
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(132): App\Models\ModelDeteksi->hitungHasil('159')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('159')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

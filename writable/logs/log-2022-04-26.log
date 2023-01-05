@@ -1,0 +1,25 @@
+CRITICAL - 2022-04-26 08:48:20 --> Division by zero
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(59): App\Models\ModelDeteksi->hitungHasil('22')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('22')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-26 08:57:22 --> Undefined variable: id_aturan
+#0 C:\xampp\htdocs\lisata\app\Controllers\Aturan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Aturan->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aturan))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-26 08:57:29 --> Undefined variable: id_aturan
+#0 C:\xampp\htdocs\lisata\app\Controllers\Aturan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Aturan->index()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aturan))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

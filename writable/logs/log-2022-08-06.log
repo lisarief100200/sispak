@@ -1,0 +1,575 @@
+CRITICAL - 2022-08-06 13:36:16 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(63): App\Models\ModelDeteksi->hitungHasil('342')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('342')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 13:36:23 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(63): App\Models\ModelDeteksi->hitungHasil('343')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('343')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 13:37:00 --> Undefined offset: 10
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(63): App\Models\ModelDeteksi->hitungHasil('345')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('345')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 13:44:24 --> Undefined offset: 10
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(63): App\Models\ModelDeteksi->hitungHasil('345')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('345')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 15:22:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(31): CodeIgniter\Model->__get('ModelSubgejala')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:22:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(693): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(31): CodeIgniter\Model->__get('ModelSubgejala')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:25:08 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_deteksi', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(38): view('v_deteksi', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:27:34 --> Undefined variable: values
+#0 C:\xampp\htdocs\lisata\app\Views\v_deteksi.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(38): view('v_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 15:31:18 --> Undefined variable: subgejalaFlu
+#0 C:\xampp\htdocs\lisata\app\Views\v_deteksi.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(38): view('v_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 15:33:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(33): CodeIgniter\Model->__call('subgejalaMata', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:34:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(33): CodeIgniter\Model->__call('subgejalaMata', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:34:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lisata\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lisata\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(33): CodeIgniter\Model->__call('subgejalaMata', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-06 15:44:38 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('378')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('378')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 15:45:50 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('378')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('378')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 15:45:53 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('378')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('378')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 15:46:19 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('379')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('379')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:00:49 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('381')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('381')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:04:25 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('383')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('383')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:05:25 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('384')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('384')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:09:44 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\xampp\htdocs\lisata\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/deteksi')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/deteksi')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:13:59 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(72): App\Models\ModelDeteksi->hitungHasil('387')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('387')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:14:48 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(73): App\Models\ModelDeteksi->hitungHasil('387')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('387')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:22:00 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(73): App\Models\ModelDeteksi->hitungHasil('397')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('397')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:30:30 --> Undefined variable: dataKulit
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:34:06 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:40:32 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:41:25 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:41:28 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 16:48:07 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(98): App\Models\ModelDeteksi->hitungHasil('405')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('405')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 16:56:09 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 17:02:40 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 17:10:26 --> Undefined variable: nilai_keanggotaan
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(122): App\Models\ModelDeteksi->hitungHasil('409')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('409')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:19:03 --> Undefined variable: nilai_keanggotaan
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(122): App\Models\ModelDeteksi->hitungHasil('410')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('410')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:33:22 --> Undefined variable: hasilInput
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('412')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:36:03 --> Cannot redeclare App\Models\ModelDeteksi::getDataDiri()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-06 17:36:21 --> Undefined variable: hasilInput
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('413')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:36:35 --> Illegal string offset 'all_sub_gejala'
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('413')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:37:17 --> Illegal string offset 'all_sub_gejala'
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('413')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:38:53 --> Undefined variable: value
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('414')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:40:19 --> Undefined variable: value
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('414')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:40:32 --> Undefined variable: valuesz
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(133): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('414')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-06 17:42:25 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:43:10 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(55): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:43:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:43:48 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:43:55 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:44:11 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:44:14 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:44:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(48): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:45:05 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(49): implode(', ', NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:45:15 --> Undefined variable: stringdataPerut
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 17:45:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(58): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:47:17 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(68): count(NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 17:48:29 --> Undefined variable: jmldataFlu
+#0 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 105, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->addData()
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-06 19:36:21 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(132): App\Models\ModelDeteksi->hitungHasil('159')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('159')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-06 19:55:01 --> Table 'db_ft.tbl_sub_gejala' doesn't exist
+CRITICAL - 2022-08-06 19:55:01 --> Table 'db_ft.tbl_sub_gejala' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelSubgejala.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(31): App\Models\ModelSubgejala->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 19:55:19 --> Table 'db_ft.tbl_sub_gejala' doesn't exist
+CRITICAL - 2022-08-06 19:55:19 --> Table 'db_ft.tbl_sub_gejala' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelSubgejala.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Subgejala.php(21): App\Models\ModelSubgejala->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Subgejala->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Subgejala))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 20:04:44 --> Table 'db_ft.tbl_himpunan' doesn't exist
+CRITICAL - 2022-08-06 20:04:44 --> Table 'db_ft.tbl_himpunan' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelHimpunan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Himpunan.php(23): App\Models\ModelHimpunan->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Himpunan->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Himpunan))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 20:10:24 --> Table 'db_ft.tbl_keputusan' doesn't exist
+CRITICAL - 2022-08-06 20:10:24 --> Table 'db_ft.tbl_keputusan' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelKeputusan.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Aturan.php(27): App\Models\ModelKeputusan->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Aturan->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aturan))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 20:15:43 --> Table 'db_ft.tbl_aturan' doesn't exist
+CRITICAL - 2022-08-06 20:15:43 --> Table 'db_ft.tbl_aturan' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelAturan.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Aturan.php(28): App\Models\ModelAturan->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Aturan->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aturan))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 20:26:47 --> Table 'db_ft.tbl_detail_aturan' doesn't exist
+CRITICAL - 2022-08-06 20:26:47 --> Table 'db_ft.tbl_detail_aturan' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelAturan.php(49): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Aturan.php(63): App\Models\ModelAturan->addData(Array)
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Aturan->addData()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aturan))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-06 20:46:28 --> Table 'db_ft.tbl_solusi' doesn't exist
+CRITICAL - 2022-08-06 20:46:28 --> Table 'db_ft.tbl_solusi' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelSolusi.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Solusi.php(21): App\Models\ModelSolusi->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Solusi->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Solusi))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-06 20:54:27 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(132): App\Models\ModelDeteksi->hitungHasil('1')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('1')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 21:02:20 --> Undefined variable: bb
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(132): App\Models\ModelDeteksi->hitungHasil('2')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('2')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-06 21:31:46 --> Call to undefined function form_close()
+#0 C:\xampp\htdocs\lisata\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_penggun...', Array, true)
+#3 C:\xampp\htdocs\lisata\app\Controllers\Pengguna.php(22): view('admin/v_penggun...', Array)
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Pengguna->index()
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

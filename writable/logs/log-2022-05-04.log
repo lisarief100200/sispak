@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-04 23:55:16 --> Undefined index: deskrips_solusi
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(70): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('28')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-04 23:58:21 --> Undefined index: deskripsia_solusi
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(70): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('28')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

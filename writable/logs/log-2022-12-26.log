@@ -1,0 +1,9 @@
+CRITICAL - 2022-12-26 08:11:02 --> Invalid file: Penularan.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Penularan.php')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('Penularan', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Penularan.php(13): view('Penularan', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Penularan->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penularan))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

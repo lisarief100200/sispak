@@ -1,0 +1,24 @@
+CRITICAL - 2022-08-20 00:56:23 --> Call to undefined function form_close()
+#0 C:\xampp\htdocs\lisata\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_penggun...', Array, true)
+#3 C:\xampp\htdocs\lisata\app\Controllers\Pengguna.php(22): view('admin/v_penggun...', Array)
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Pengguna->index()
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-20 00:57:19 --> Undefined variable: id_riwayat
+#0 C:\xampp\htdocs\lisata\app\Controllers\Pengguna.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Pengguna->deleteData('5')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-20 00:57:47 --> Undefined variable: id_riwayat
+#0 C:\xampp\htdocs\lisata\app\Controllers\Pengguna.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Pengguna->deleteData('5')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

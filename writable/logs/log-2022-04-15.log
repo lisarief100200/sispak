@@ -1,0 +1,370 @@
+CRITICAL - 2022-04-15 07:11:24 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 07:13:54 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 07:17:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 07:20:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 07:22:08 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 07:27:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\lisata\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\lisata\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\lisata\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-15 01:11:30 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:11:35 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:11:36 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:11:36 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:11:53 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:12:53 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:12:54 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 01:13:26 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('template_user')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 02:41:47 --> Invalid file: template_user.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template_user.p...')
+#1 C:\xampp\htdocs\lisata\system\View\View.php(226): CodeIgniter\View\View->render('template_user', Array, true)
+#2 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_home', Array, true)
+#3 C:\xampp\htdocs\lisata\app\Controllers\Home.php(9): view('v_home')
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-04-15 03:03:11 --> Invalid file: admin/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_dashboa...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(11): view('admin/v_dashboa...')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 07:01:13 --> include(../config/cons.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../conf...', 'C:\\xampp\\htdocs...', 1, Array)
+#1 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(1): include()
+#2 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(11): view('v_login_admin')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-15 12:16:30 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\lisata\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#1 C:\xampp\htdocs\lisata\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/login')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-15 12:24:03 --> Undefined variable: validation
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(22): view('v_login_admin')
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-15 12:25:33 --> Undefined variable: validation
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(22): view('v_login_admin')
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->login1()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-15 12:30:20 --> Undefined variable: errors
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(22): view('v_login_admin')
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->login1()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-15 12:32:05 --> Undefined variable: empty
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(22): view('v_login_admin')
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->login1()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-15 12:32:40 --> Undefined variable: errors
+#0 C:\xampp\htdocs\lisata\app\Views\v_login_admin.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_login_admin', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Auth.php(22): view('v_login_admin')
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Auth->login1()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-04-15 12:50:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\lisata\app\Views\template\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(11): view('admin1/v_dashbo...')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-15 13:10:00 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:10:12 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:10:35 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:10:36 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:10:37 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:11:02 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:11:26 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(12): view('admin1/v_dashbo...')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:11:27 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(12): view('admin1/v_dashbo...')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:11:28 --> Invalid file: admin1/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin1/v_dashbo...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(12): view('admin1/v_dashbo...')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-04-15 13:12:11 --> Undefined variable: title
+#0 C:\xampp\htdocs\lisata\app\Views\template\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-15 13:12:37 --> Undefined variable: title
+#0 C:\xampp\htdocs\lisata\app\Views\template\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-15 13:12:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\lisata\app\Views\template\template_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin1/v_dashbo...', Array, true)
+#5 C:\xampp\htdocs\lisata\app\Controllers\Admin1.php(15): view('admin1/v_dashbo...')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin1->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin1))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-04-15 14:14:22 --> Invalid file: admin/v_dashboard.php
+#0 C:\xampp\htdocs\lisata\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/v_dashboa...')
+#1 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_dashboa...', Array, true)
+#2 C:\xampp\htdocs\lisata\app\Controllers\Admin.php(15): view('admin/v_dashboa...', Array)
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lisata\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
