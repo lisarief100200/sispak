@@ -20,7 +20,7 @@
     </div>
 
     <div class="col-6">
-        <img src="images/ilustrasi.jpg" width="100%" height="auto" style="border-radius:5px; ">
+        <img src="<?= base_url(); ?>/images/ilustrasi.jpg" width="100%" height="auto" style="border-radius:5px; ">
     </div>
 
 <?= $this->endSection() ?>
