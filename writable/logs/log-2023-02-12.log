@@ -1,0 +1,35 @@
+CRITICAL - 2023-02-12 11:35:46 --> Division by zero
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(145): App\Models\ModelDeteksi->hitungHasil('127')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('127')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 11:35:54 --> Undefined variable: dfz
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(145): App\Models\ModelDeteksi->hitungHasil('127')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('127')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-12 11:36:38 --> Array to string conversion
+#0 C:\xampp\htdocs\lisata\app\Views\v_hasil_deteksi.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\lisata\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lisata\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\lisata\system\Common.php(1089): CodeIgniter\View\View->render('v_hasil_deteksi', Array, true)
+#4 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(156): view('v_hasil_deteksi', Array)
+#5 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('129')
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-12 11:53:00 --> Division by zero
+#0 C:\xampp\htdocs\lisata\app\Models\ModelDeteksi.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 112, Array)
+#1 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(145): App\Models\ModelDeteksi->hitungHasil('136')
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->hasilDeteksi('136')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#4 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -8,7 +8,7 @@
         </div>
 
         <div class="col-sm-6">
-            <h6 class="mb-3 mt-3 float-end"><i>Tanggal: <?= $data['tanggal'] ?></i></h6>
+            <h6 class="mb-3 mt-3 float-end"><i>Tanggal: 2023-01-26 14:28:13</i></h6>
         </div>
 
         <div class="col-sm-6">
@@ -102,7 +102,7 @@
         </div>
 
         <div class="col-sm-12">
-            <p><b><u>Hasil Fuzzifikasi</u></b></p>
+            <p><b><u>Fuzzifikasi</u></b></p>
 
             <?php
                 foreach ($gejala as $key => $value) { ?>
@@ -139,7 +139,6 @@
                 Lihat selengkapnya
             </button>
         </p>
-        
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
                 <div class="row">
@@ -217,7 +216,7 @@
 </div>
 
 <div class="col-sm-12">
-    <button class="btn btn-primary btn-lg float-end mt-3 mb-3" id="downloadPDF"><i class="bi bi-save"></i> Download PDF</button>
+    <button onClick="makePDF()" class="btn btn-primary btn-lg float-end mt-3 mb-3" id="downloadPDF"><i class="bi bi-save"></i> Download PDF</button>
 </div>
 
 <?php

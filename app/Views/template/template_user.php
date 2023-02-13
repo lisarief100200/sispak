@@ -24,6 +24,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha256-c9vxcXyAG4paArQG3xk6DjyW/9aHxai2ef9RpMWO44A=" crossorigin="anonymous"></script>
         <!-- Link to Icon -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>    
+        <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>    
     <head>
 
     <body class="d-flex flex-column h-100">
@@ -71,17 +74,23 @@
 </body>
 
 <script>
-$('#downloadPDF').click(function () {
-    domtoimage.toPng(document.getElementById('content_hasil'))
-        .then(function (blob) {
-            var pdf = new jsPDF('p', 'mm', [$('#content_hasil').width(), $('#content_hasil').height()]);
-            pdf.addImage(blob, 'PNG', 0, 0, $('#content_hasil').width(), $('#content_hasil').height());
-            pdf.save("hasil.pdf");
+    window.html2canvas = html2canvas;
+    window.jsPDF = window.jspdf.jsPDF;
 
-            that.options.api.optionsChanged();
+    function makePDF() {
+        html2canvas(document.querySelector("#content_hasil"), {
+            allowTaint:true,
+            useCORS: true,
+            scale: 1
+        }).then(canvas => {
+            var img = canvas.toDataURL("image/png");
+            var doc = new jsPDF();
+            doc.setFont('Arial');
+            doc.getFontSize(11);
+            doc.addImage(img, 'PNG', 7, 13, 195, 250);
+            doc.save("hasil");
         });
-});
-
+    }
 </script>
 
 </html>

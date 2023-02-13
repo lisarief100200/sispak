@@ -6,15 +6,6 @@ use CodeIgniter\Model;
 
 class ModelDeteksi extends Model
 {
-    public function deteksiRiwayat($id_riwayat)
-    {
-        return $this->db->table('tbl_deteksi')
-        ->join('tbl_gejala', 'tbl_gejala.id_gejala = tbl_deteksi.id_gejala', 'left')
-        ->where('id_riwayat', $id_riwayat)
-        ->get()
-        ->getResultArray(); // Satu baris aja
-    }
-
     public function addData($data)
     {
         $input_riwayat['nama'] = $data['nama'];
@@ -22,7 +13,7 @@ class ModelDeteksi extends Model
         $input_riwayat['jenis_kelamin'] = $data['jenis_kelamin'];
         $input_riwayat['domisili'] = $data['domisili'];
         $input_riwayat['tanggal'] = $data['tanggal'];
-        $input_riwayat['kode_deteksi'] = $data['kode_deteksi'];
+        //$input_riwayat['kode_deteksi'] = $data['kode_deteksi'];
 
         $this->db->table('tbl_riwayat')->insert($input_riwayat);
 
@@ -36,6 +27,15 @@ class ModelDeteksi extends Model
         }
 
         return $input_data['id_riwayat'];
+    }
+
+    public function deteksiRiwayat($id_riwayat)
+    {
+        return $this->db->table('tbl_deteksi')
+        ->join('tbl_gejala', 'tbl_gejala.id_gejala = tbl_deteksi.id_gejala', 'left')
+        ->where('id_riwayat', $id_riwayat)
+        ->get()
+        ->getResultArray(); // Satu baris aja
     }
 
     public function getDataDiri($id_riwayat)
@@ -53,7 +53,7 @@ class ModelDeteksi extends Model
         $this->ModelSolusi = new ModelSolusi();
         $data['input'] = $this->deteksiRiwayat($id_riwayat);
 
-        // Fuzzyfikasi
+        // Fuzzifikasi
         foreach ($data['input'] as $key_i => $value_i) {
             $input = $value_i['data_deteksi'];
             $idv = $value_i['id_gejala'];
@@ -66,29 +66,19 @@ class ModelDeteksi extends Model
             }
 
             foreach ($bb[$idv] as $idh => $nilai_batas_bawah) {
-                if ($nilai_batas_bawah == min($bb[$idv])) {
+                if ($nilai_batas_bawah <= min($bb[$idv])) {
                     if($input >= $ba[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 0;
                     }elseif($input >= $bt[$idv][$idh] AND $input <= $ba[$idv][$idh]){
-                        $nilai_keanggotaan[$idv][$idh] = round(($ba[$idv][$idh] - $input)/($ba[$idv][$idh] - $bt[$idv][$idh]), 3);
+                        $nilai_keanggotaan[$idv][$idh] = ($ba[$idv][$idh] - $input)/($ba[$idv][$idh] - $bt[$idv][$idh]);
                     }elseif($input <= $bt[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 1;
                     }
-                } elseif($nilai_batas_bawah !== min($bb[$idv]) AND $nilai_batas_bawah !== max($bb[$idv])) {
-                    if($input <= $bb[$idv][$idh] OR $input >= $ba[$idv][$idh]){
-                        $nilai_keanggotaan[$idv][$idh] = 0;
-                    }elseif($input >= $bb[$idv][$idh] AND $input <= $bt[$idv][$idh]){
-                        $nilai_keanggotaan[$idv][$idh] = round(($input - $bb[$idv][$idh])/($bt[$idv][$idh] - $bb[$idv][$idh]), 3);
-                    }elseif($input == $bt[$idv][$idh]) {
-                        $nilai_keanggotaan[$idv][$idh] = 1;
-                    } elseif($input >= $bt[$idv][$idh] AND $input <= $ba[$idv][$idh]){
-                        $nilai_keanggotaan[$idv][$idh] = round(($ba[$idv][$idh] - $input)/($ba[$idv][$idh] - $bt[$idv][$idh]), 3);
-                    }
-                } elseif($nilai_batas_bawah == max($bb[$idv])){
+                } elseif($nilai_batas_bawah >= max($bb[$idv])){
                     if($input <= $bb[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 0;
                     }elseif($input >= $bb[$idv][$idh] AND $input <= $bt[$idv][$idh]){
-                        $nilai_keanggotaan[$idv][$idh] = round(($input - $bb[$idv][$idh])/($bt[$idv][$idh] - $bb[$idv][$idh]), 3);
+                        $nilai_keanggotaan[$idv][$idh] = ($input - $bb[$idv][$idh])/($bt[$idv][$idh] - $bb[$idv][$idh]);
                     }elseif($input >= $bt[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 1;
                     }
@@ -108,25 +98,22 @@ class ModelDeteksi extends Model
             }
             $predikat[$idr] = min($kelompok_aturan[$idr]);
 
-			// Cari nilai Z
+			// Cari nilai Y
 			if ($value_a['id_keputusan']=="1") {
-				$nilai_z[$idr] = round(50 - ($predikat[$idr] * ($value_a['batas_atas_keputusan'] - $value_a['batas_tengah_keputusan'])), 3);
+				$nilai_z[$idr] = 50 - ($predikat[$idr] * ($value_a['batas_atas_keputusan'] - $value_a['batas_tengah_keputusan']));
 			} elseif ($value_a['id_keputusan']=="2"){
-				$a = round($value_a['batas_bawah_keputusan'] + ($predikat[$idr] * ($value_a['batas_tengah_keputusan'] - $value_a['batas_bawah_keputusan'])), 3);
-				$b = round($value_a['batas_atas_keputusan'] - ($predikat[$idr] * ($value_a['batas_atas_keputusan'] - $value_a['batas_tengah_keputusan'])), 3);
+				$a = $value_a['batas_bawah_keputusan'] + ($predikat[$idr] * ($value_a['batas_tengah_keputusan'] - $value_a['batas_bawah_keputusan']));
+				$b = $value_a['batas_atas_keputusan'] - ($predikat[$idr] * ($value_a['batas_atas_keputusan'] - $value_a['batas_tengah_keputusan']));
 				$nilai_z[$idr] = min($a, $b);
-				// INI SATU LAGI NANTI
 			} elseif ($value_a['id_keputusan']=="3"){
-				////////////////////////////////////DISINI
-				$nilai_z[$idr] = round($value_a['batas_bawah_keputusan'] + ($predikat[$idr] * ($value_a['batas_tengah_keputusan'] - $value_a['batas_bawah_keputusan'])), 3);
+				$nilai_z[$idr] = $value_a['batas_bawah_keputusan'] + ($predikat[$idr] * ($value_a['batas_tengah_keputusan'] - $value_a['batas_bawah_keputusan']));
 			}
 
-			$kali_dfz[$idr] = round($predikat[$idr] * $nilai_z[$idr], 3);
+			$kali_dfz[$idr] = $predikat[$idr] * $nilai_z[$idr];
         }
 
-        $hasil_dfz=round(array_sum($kali_dfz) / array_sum($predikat), 3);
-		$dfz = round(array_sum($kali_dfz) / array_sum($predikat), 2)."%";
-        $nilai_keanggotaan = $nilai_keanggotaan;
+        $hasil_dfz=array_sum($kali_dfz) / array_sum($predikat);
+		$dfz = round(array_sum($kali_dfz) / array_sum($predikat), 2) . "%";
 
 		$penyakit=$this->ModelSolusi->getAllDataPenyakit();
 		foreach ($penyakit as $index => $value) {
