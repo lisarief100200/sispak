@@ -58,6 +58,7 @@ class ModelDeteksi extends Model
             $input = $value_i['data_deteksi'];
             $idv = $value_i['id_gejala'];
             $data_himpunan = $this->ModelHimpunan->getHimpunan($idv);
+            
         
             foreach ($data_himpunan as $key_h => $value_h) {
                 $bb[$idv][$value_h['id_himpunan']] = $value_h['batas_bawah_himpunan'];
@@ -66,7 +67,7 @@ class ModelDeteksi extends Model
             }
 
             foreach ($bb[$idv] as $idh => $nilai_batas_bawah) {
-                if ($nilai_batas_bawah <= min($bb[$idv])) {
+                if ($nilai_batas_bawah == min($bb[$idv])) {
                     if($input >= $ba[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 0;
                     }elseif($input >= $bt[$idv][$idh] AND $input <= $ba[$idv][$idh]){
@@ -74,7 +75,7 @@ class ModelDeteksi extends Model
                     }elseif($input <= $bt[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 1;
                     }
-                } elseif($nilai_batas_bawah >= max($bb[$idv])){
+                } elseif($nilai_batas_bawah == max($bb[$idv])){
                     if($input <= $bb[$idv][$idh]){
                         $nilai_keanggotaan[$idv][$idh] = 0;
                     }elseif($input >= $bb[$idv][$idh] AND $input <= $bt[$idv][$idh]){

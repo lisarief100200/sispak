@@ -1,0 +1,20 @@
+CRITICAL - 2023-02-14 03:13:48 --> Undefined variable: id_riwayat
+#0 C:\xampp\htdocs\lisata\app\Filters\FilterPengguna.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\lisata\system\Filters\Filters.php(196): App\Filters\FilterPengguna->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\lisata\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/himpunan', 'after')
+#3 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-14 08:50:24 --> Table 'db_ft_temp.tbl_gejala' doesn't exist
+CRITICAL - 2023-02-14 08:50:24 --> Table 'db_ft_temp.tbl_gejala' doesn't exist
+#0 C:\xampp\htdocs\lisata\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\lisata\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\lisata\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\lisata\app\Models\ModelGejala.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\lisata\app\Controllers\Deteksi.php(29): App\Models\ModelGejala->getAllData()
+#6 C:\xampp\htdocs\lisata\system\CodeIgniter.php(832): App\Controllers\Deteksi->index()
+#7 C:\xampp\htdocs\lisata\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Deteksi))
+#8 C:\xampp\htdocs\lisata\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lisata\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
